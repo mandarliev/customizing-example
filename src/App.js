@@ -1,9 +1,12 @@
 import './App.css';
-import ModeToggler from './ModeToggler';
+import Child from './Child';
 
 function App() {
+  const data = new Date();
   return (
-    <ModeToggler />
+    <div>
+      <Child message={data.toLocaleDateString()}/>
+    </div>
   );
 }
 
