@@ -3,3 +3,5 @@ function Child(props) {
         <h1>{props.message}</h1>
     )
 }
+
+export default Child;
