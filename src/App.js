@@ -1,11 +1,12 @@
 import './App.css';
-import Child from './Child';
+import React from 'react';
+import RegisterForm from './RegisterForm';
 
 function App() {
-  const data = new Date();
+
   return (
     <div>
-      <Child message={data.toLocaleDateString()}/>
+      <RegisterForm />
     </div>
   );
 }
